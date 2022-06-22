@@ -9,22 +9,24 @@
     };
     height: 250px;
     width: 100%;
-    position: fixed;
-    background-color: $colorFon;
+    //position: fixed;
+    //background-color: $colorFon;
     display: flex;
+    border-bottom: aquamarine 6px solid;
+    align-items: center;
 
     justify-content: space-around;
 }
 .headAva {
-    border: black 1px solid;
+    //border: black 1px solid;
     width: 200px;
 
 }
 .headName{
-    border: black 1px solid;
+    //border: black 1px solid;
     width: 350px;
 }
 .headContact{
-    border: black 1px solid;
+    //border: black 1px solid;
     width: 300px;
 }

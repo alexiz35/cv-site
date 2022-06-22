@@ -1,19 +1,34 @@
 import React from "react";
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./HeadBar.scss"
 
 export default function HeadBar() {
     return (
         <>
-            <Navbar bg="dark" variant="dark" expand="xl" fixed="top">
+            <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Text>
-                        Oleksandr
-                    </Navbar.Text>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                    <Navbar.Collapse  id="basic-navbar-nav">
+                    <Navbar.Brand href="#home">Oleksandr I</Navbar.Brand>
+                    <div className="justify-content-end">
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 
-                    </Navbar.Collapse>
+                        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                            <Nav className="me-auto">
+                                <Nav.Link href="#features">About</Nav.Link>
+                                <Nav.Link href="#pricing">Skills</Nav.Link>
+                                <NavDropdown title="GitHub" id="collasible-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                                    <NavDropdown.Divider/>
+                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                                </NavDropdown>
+                                <Nav.Link href="#deets">Experience</Nav.Link>
+                                <Nav.Link href="#memes">Education</Nav.Link>
+                                <Nav.Link href="#memes">Courses</Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </div>
                 </Container>
             </Navbar>
             <div className="headContainer">

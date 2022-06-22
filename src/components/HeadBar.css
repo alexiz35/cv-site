@@ -8,9 +8,9 @@ body {
 .headContainer {
   height: 250px;
   width: 100%;
-  position: fixed;
-  background-color: #C0C0C0;
   display: flex;
+  border-bottom: aquamarine 6px solid;
+  align-items: center;
   justify-content: space-around;
 }
 @media screen and (max-width: 600px) {
@@ -21,17 +21,14 @@ body {
 }
 
 .headAva {
-  border: black 1px solid;
   width: 200px;
 }
 
 .headName {
-  border: black 1px solid;
   width: 350px;
 }
 
 .headContact {
-  border: black 1px solid;
   width: 300px;
 }
 
