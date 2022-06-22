@@ -1,0 +1,30 @@
+@import 'index';
+
+
+
+.headContainer {
+    @media screen and (max-width: 600px ){
+        flex-direction: column;
+        align-items: center;
+    };
+    height: 250px;
+    width: 100%;
+    position: fixed;
+    background-color: $colorFon;
+    display: flex;
+
+    justify-content: space-around;
+}
+.headAva {
+    border: black 1px solid;
+    width: 200px;
+
+}
+.headName{
+    border: black 1px solid;
+    width: 350px;
+}
+.headContact{
+    border: black 1px solid;
+    width: 300px;
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.headContainer {
+  height: 250px;
+  width: 100%;
+  position: fixed;
+  background-color: #C0C0C0;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+  .headContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.headAva {
+  border: black 1px solid;
+  width: 200px;
+}
+
+.headName {
+  border: black 1px solid;
+  width: 350px;
+}
+
+.headContact {
+  border: black 1px solid;
+  width: 300px;
+}
+
+/*# sourceMappingURL=HeadBar.css.map */
