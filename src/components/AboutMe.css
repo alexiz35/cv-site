@@ -39,39 +39,31 @@
   }
 }
 /*--------------------------------------------------------------*/
-.headContainer {
-  margin-top: 56px;
-  height: 250px;
-  width: 100%;
+.tittleAbout {
   display: flex;
-  border-bottom: #1dcbc6 6px solid;
+  background-color: #DCDCDC;
+  width: 40px;
   align-items: center;
-  justify-content: space-around;
 }
-@media screen and (max-width: 600px) {
-  .headContainer {
-    flex-direction: column;
-    align-items: center;
-  }
-  .headContainer .headContact {
-    border-top: #1dcbc6 2px solid;
-  }
-  .headContainer .headAva {
-    display: none;
-  }
+.tittleAbout .content {
+  font-size: 30px;
+  color: #909292;
+  font-style: oblique;
+  writing-mode: vertical-lr;
+  display: flex;
+}
+.tittleAbout .content span {
+  transform: rotate(180deg);
 }
 
-.headAva {
-  width: 200px;
+.aboutMe {
+  text-align: left;
+  width: 100%;
+}
+.aboutMe h4 {
+  color: #484545;
+  padding: 20px;
+  margin-bottom: 0;
 }
 
-.headName {
-  width: 350px;
-}
-
-.headContact {
-  width: 300px;
-  text-align: start;
-}
-
-/*# sourceMappingURL=HeadBar.css.map */
+/*# sourceMappingURL=AboutMe.css.map */

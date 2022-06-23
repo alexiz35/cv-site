@@ -1,0 +1,28 @@
+@import 'App';
+
+
+
+.tittleAbout {
+  display: flex;
+  background-color: #DCDCDC;
+  width: 40px;
+  align-items: center;
+  .content {
+    @include textSide;
+    writing-mode: vertical-lr;
+    display: flex;
+    span {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.aboutMe {
+  text-align: left;
+  width: 100%;
+  h4 {
+    color: $colorFont;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+}

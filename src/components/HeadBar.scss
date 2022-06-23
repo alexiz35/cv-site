@@ -1,32 +1,32 @@
-@import 'index';
-
-
+@import 'App';
 
 .headContainer {
     @media screen and (max-width: 600px ){
         flex-direction: column;
         align-items: center;
+        .headContact{
+            border-top: $colorLine 2px solid;
+        }
+        .headAva {
+            display: none;
+        }
     };
+    margin-top: 56px;
     height: 250px;
     width: 100%;
-    //position: fixed;
-    //background-color: $colorFon;
     display: flex;
-    border-bottom: aquamarine 6px solid;
+    border-bottom: $colorLine 6px solid;
     align-items: center;
 
     justify-content: space-around;
 }
 .headAva {
-    //border: black 1px solid;
     width: 200px;
-
 }
 .headName{
-    //border: black 1px solid;
     width: 350px;
 }
 .headContact{
-    //border: black 1px solid;
     width: 300px;
+    text-align: start;
 }

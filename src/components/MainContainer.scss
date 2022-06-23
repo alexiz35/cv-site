@@ -1,0 +1,9 @@
+@import "App";
+
+.mainContainer {
+  position: relative;
+  display: flex;
+  justify-content: stretch;
+  //height: 200px;
+  border-bottom: black 1px solid;
+}
