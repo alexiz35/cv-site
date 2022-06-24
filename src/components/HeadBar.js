@@ -18,15 +18,18 @@ export default function HeadBar() {
                                 <Nav.Link href="#about">About</Nav.Link>
                                 <Nav.Link href="#skills">Skills</Nav.Link>
                                 <NavDropdown title="GitHub" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider/>
-                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://github.com/alexiz35/cv-site">CV
+                                        project</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://github.com/alexiz35/site-ltu">LTU
+                                        project</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://github.com/alexiz35/test_task">TestTask
+                                        project</NavDropdown.Item>
+                                    {/*<NavDropdown.Divider/>
+                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>*/}
                                 </NavDropdown>
                                 <Nav.Link href="#experience">Experience</Nav.Link>
-                                <Nav.Link href="#memes">Education</Nav.Link>
-                                <Nav.Link href="#memes">Courses</Nav.Link>
+                                <Nav.Link href="#education">Education</Nav.Link>
+                                <Nav.Link href="#courses">Courses</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </div>
@@ -73,7 +76,6 @@ export default function HeadBar() {
                     </table>
                 </div>
             </div>
-
         </>
     )
 }

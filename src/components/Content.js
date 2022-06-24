@@ -3,18 +3,25 @@ import React from "react";
 const styleContent = {
     display: "flex",
     justifyContent: "space-around",
+    flexWrap: "wrap"
 }
 
-const styleAbout ={
-    padding:"20px",
-    fontSize:"1.1em",
+const styleAbout = {
+    padding: "20px",
+    fontSize: "1.1em",
+}
+
+const styleDiv = {
+    width: "295px",
 }
 
 export function AboutContent() {
     return (
         <>
-            <h5 align={"justify"} style={styleAbout}>I was developing electronic devices, programming of microcontrollers (assembler, C). I am the founder of
-                a unique laser tag company in Ukraine:<a href="https://www.facebook.com/lasertagukraine"> L.T.U.</a> .<br/><br/>
+            <h5 align={"justify"} style={styleAbout}>I was developing electronic devices, programming of
+                microcontrollers (assembler, C). I am the founder of
+                a unique laser tag company in Ukraine:<a
+                    href="https://www.facebook.com/lasertagukraine"> L.T.U.</a> .<br/><br/>
                 I decided to change my career in 2022 based on:
                 <ol>
                     <li>
@@ -36,13 +43,11 @@ export function AboutContent() {
 }
 
 export function SkillsContent() {
-
     return (
         <>
-
-            <h4 align={"center"}>Currently I have the these skills</h4>
+            <h4 align={"center"}>My currently skills</h4>
             <div style={styleContent}>
-                <div>
+                <div style={styleDiv}>
                     <ul>
                         <li>
                             <b>Programming languages:</b> <i>JavaScript, HTML5, CSS3, SASS, Git</i>
@@ -58,20 +63,15 @@ export function SkillsContent() {
                         </li>
                     </ul>
                 </div>
-                <div style={{marginLeft: "10px"}}>
-                    <li>
-                        <b>Development environments (IDE):</b> <i>WebStorm, PHPStorm</i>
-                    </li>
-                    <li>
-                        <b>Design:</b> <i>Figma, Photoshop</i>
-                    </li>
-                    {/*<li>
-                        Programming languages: JavaScript, HTML5, CSS3, SASS, Git
-                    </li>
-                    <li>
-                        Technologies and frameworks: React, Bootstrap
-                    </li>*/}
-
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <b>Development environments (IDE):</b> <i>WebStorm, PHPStorm</i>
+                        </li>
+                        <li>
+                            <b>Design:</b> <i>Figma, Photoshop</i>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </>
@@ -83,7 +83,7 @@ export function ExperienceContent() {
         <>
             <h4 align={"center"}>Work experience</h4>
             <div style={styleContent}>
-                <div>
+                <div style={styleDiv}>
                     <ul>
                         <li>
                             <b>Head of the company\ Developer </b><br/>
@@ -98,7 +98,7 @@ export function ExperienceContent() {
                         </li>
                     </ul>
                 </div>
-                <div style={{marginLeft: "10px"}}>
+                <div style={styleDiv}>
                     <li>
                         <b>Electronics engineer </b><br/>
                         <i>Kontur-Delta | Luhansk
@@ -117,6 +117,175 @@ export function ExperienceContent() {
                     </li>*/}
 
                 </div>
+            </div>
+        </>
+    )
+}
+
+export function GithubContent() {
+    return (
+        <>
+            <h4 align={"center"}>My projects on GitHub</h4>
+
+            <div style={styleContent}>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <h6>CV - project written on React.js</h6>
+                            Technologies: HTML5, CSS3, React, SCSS, ReactBootstrap<br/>
+                            URL, <a href={"https://github.com/alexiz35/cv-site"}>link on GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <h6>site LTU - project written on Next.js</h6>
+                            Technologies: HTML5, CSS3, React, Next.js, SCSS, ReactBootstrap, MySql<br/>
+                            <a href={"http://www.ltu.com.ua/"}>URL</a>, <a
+                            href={"https://github.com/alexiz35/site-ltu"}>link
+                            on GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <h6>TestTask - project written on React.js</h6>
+                            Technologies: HTML5, CSS3, React, SCSS, ReactBootstrap, RestApi, PixelPerfect<br/>
+                            <a href={"https://github.com/alexiz35/test_task"}>Link on GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export function EducationContent() {
+    return (
+        <>
+            <h4 align={"center"}>Education and Languages</h4>
+            <div style={styleContent}>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <b>East Ukrainian National University </b><br/>
+                            <i> electronic engineering<br/>
+                                Specialist<br/>
+                                electronic equipment engineer<br/>
+
+                                06.1994 - 06.1999 (5 years)</i>
+                        </li>
+                    </ul>
+                </div>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <b>Languages </b><br/>
+                        </li>
+                        <ul>
+                            <li>
+                                English - Pre-Intermediate <br/>
+                                (reading technical documentation and сonducting correspondence)
+                            </li>
+                            <li>
+                                Russian - Native
+                            </li>
+                            <li>
+                                Ukrainian - Native
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export function CoursesContent() {
+    return (
+        <>
+            <h4 align={"center"}>Online Courses and Certificate</h4>
+            <div style={styleContent}>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <b>ITVDN online</b> <br/>
+                            <i>Course "React basic, React Advance"</i><br/>
+                            <b>Certificate on Testprovider:</b><br/>
+                            <ul>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp84068860"}>TP84068860</a> -
+                                    React Advanced
+                                </li>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp93626598"}>TP93626598</a> -
+                                    React Essential
+                                </li>
+                                <b>Diploma on Testprovider:</b><br/>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp39988989d"}>TP39988989D</a> -
+                                    React Developer
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div style={styleDiv}>
+                    <ul>
+
+                        <li>
+                            <b>ITVDN online</b> <br/>
+                            <i>Course "HTML5&CSS3 Basic"</i><br/>
+                            <b>Certificate on Testprovider:</b><br/>
+                            <ul>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp30301924"}>TP30301924</a> -
+                                    HTML5&CSS3 Basic
+                                </li>
+                            </ul>
+                        </li>
+                        <i>Course "GIT basic"</i><br/>
+                        <b>Certificate on Testprovider:</b><br/>
+                        <ul>
+                            <li>
+                                <a href={"https://testprovider.com/ru/search-certificate/tp43132330"}>TP43132330</a> -
+                                Git Basic
+                            </li>
+                        </ul>
+
+                    </ul>
+                </div>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <b>ITVDN online</b> <br/>
+                            <i>Course "Javascript"</i><br/>
+                            <b>Certificate on Testprovider:</b><br/>
+                            <ul>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp60227846"}>TP60227846</a> -
+                                    JavaScript Starter
+                                </li>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp57862634"}>TP57862634</a> -
+                                    JavaScript Essential 2021
+                                </li>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp96839141"}>TP96839141</a> -
+                                    ECMASCRIPT 6
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+
             </div>
         </>
     )
