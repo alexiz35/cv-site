@@ -3,6 +3,7 @@
 /*-------------------------APP ----------------------------------*/
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -39,6 +40,18 @@
   }
 }
 /*--------------------------------------------------------------*/
+main {
+  top: 60px;
+}
+
+.targetElement {
+  color: red;
+}
+
+.notTargetElement {
+  color: blue;
+}
+
 .tittleAbout {
   display: flex;
   background-color: #DCDCDC;

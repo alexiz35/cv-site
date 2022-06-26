@@ -3,6 +3,7 @@
 /*-------------------------APP ----------------------------------*/
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -39,11 +40,36 @@
   }
 }
 /*--------------------------------------------------------------*/
+main {
+  top: 60px;
+}
+
 .mainContainer {
   position: relative;
   display: flex;
   justify-content: stretch;
   border-bottom: black 1px solid;
+  color: #484545;
+}
+
+div :target {
+  margin-top: -60px;
+  padding-top: 60px;
+  /*span ::before {
+    content: ">>";
+    color: blue;
+  }
+  span ::after {
+    content: "<<";
+    color: blue;
+  }*/
+  /*span {
+    color: black;
+  }*/
+}
+
+.target2 span {
+  color: black;
 }
 
 /*# sourceMappingURL=MainContainer.css.map */

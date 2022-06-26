@@ -16,6 +16,7 @@ $colorFont: #484545;
 /*-------------------------APP ----------------------------------*/
 .App {
   text-align: center;
+  position: relative;
 }
 .App-logo {
   height: 40vmin;
@@ -50,5 +51,13 @@ $colorFont: #484545;
 }
 
 /*--------------------------------------------------------------*/
+main {
+  top:60px;
+}
+html {
+  //scroll-behavior: smooth;
+}
+
+
 
 

@@ -3,6 +3,7 @@
 /*-------------------------APP ----------------------------------*/
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -39,6 +40,10 @@
   }
 }
 /*--------------------------------------------------------------*/
+main {
+  top: 60px;
+}
+
 .headContainer {
   margin-top: 56px;
   height: 250px;

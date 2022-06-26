@@ -1,10 +1,20 @@
-import React from "react";
+import React, {useContext} from "react";
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./HeadBar.scss";
+import {NameMenu} from './App';
 
 
 export default function HeadBar() {
+
+    const menuItem = useContext(NameMenu);
+
+    const handleSelectMenu = (eventKey)=> {
+        console.log(eventKey)
+        console.log(menuItem);
+    }
+
+
     return (
         <>
             <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" fixed="top">
@@ -14,11 +24,11 @@ export default function HeadBar() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 
                         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                            <Nav className="me-auto">
-                                <Nav.Link href="#about">About</Nav.Link>
-                                <Nav.Link href="#skills">Skills</Nav.Link>
-                                <NavDropdown title="GitHub" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="https://github.com/alexiz35/cv-site">CV
+                            <Nav className="me-auto" defaultActiveKey={"about"} onSelect = {handleSelectMenu}>
+                                <Nav.Link eventKey = "about" href="#about" >About</Nav.Link>
+                                <Nav.Link eventKey = "skills" href="#skills">Skills</Nav.Link>
+                                <NavDropdown  title="GitHub" id="collasible-nav-dropdown" >
+                                    <NavDropdown.Item  href="https://github.com/alexiz35/cv-site" >CV
                                         project</NavDropdown.Item>
                                     <NavDropdown.Item href="https://github.com/alexiz35/site-ltu">LTU
                                         project</NavDropdown.Item>
@@ -27,9 +37,9 @@ export default function HeadBar() {
                                     {/*<NavDropdown.Divider/>
                                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>*/}
                                 </NavDropdown>
-                                <Nav.Link href="#experience">Experience</Nav.Link>
-                                <Nav.Link href="#education">Education</Nav.Link>
-                                <Nav.Link href="#courses">Courses</Nav.Link>
+                                <Nav.Link eventKey = "experience" href="#experience">Experience</Nav.Link>
+                                <Nav.Link eventKey = "education" href="#education">Education</Nav.Link>
+                                <Nav.Link eventKey = "courses" href="#courses">Courses</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </div>
