@@ -44,6 +44,10 @@ main {
   top: 60px;
 }
 
+footer {
+  height: 400px;
+}
+
 .mainContainer {
   position: relative;
   display: flex;

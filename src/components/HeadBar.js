@@ -7,11 +7,10 @@ import {NameMenu} from './App';
 
 export default function HeadBar() {
 
-    const menuItem = useContext(NameMenu);
+    const [menuItem,setMenuItem] = useContext(NameMenu);
 
     const handleSelectMenu = (eventKey)=> {
-        console.log(eventKey)
-        console.log(menuItem);
+
     }
 
 
@@ -24,7 +23,7 @@ export default function HeadBar() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 
                         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                            <Nav className="me-auto" defaultActiveKey={"about"} onSelect = {handleSelectMenu}>
+                            <Nav className="me-auto" activeKey={menuItem} onSelect = {handleSelectMenu}>
                                 <Nav.Link eventKey = "about" href="#about" >About</Nav.Link>
                                 <Nav.Link eventKey = "skills" href="#skills">Skills</Nav.Link>
                                 <NavDropdown  title="GitHub" id="collasible-nav-dropdown" >
@@ -80,7 +79,7 @@ export default function HeadBar() {
                         <tr>
                             <td><b>SOCIAL</b></td>
                             <td>:</td>
-                            <td><a>Facebook</a></td>
+                            <td><a href="https://www.facebook.com/profile.php?id=100017327100908">Facebook</a></td>
                         </tr>
                         </tbody>
                     </table>

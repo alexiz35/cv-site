@@ -1,19 +1,17 @@
 //import logo from './logo.svg';
 import './App.scss';
-import React, {createContext} from "react";
+import React, {createContext, useState} from "react";
 import HeadBar from "./HeadBar";
 import MainContainer from "./MainContainer";
-
+export const NameMenu = createContext(null);
 
 function App() {
-    //let scroll = 0;
 
-    const menuItem = "About";
-    const NameMenu = createContext(null);
+    const [menuItem,setMenuItem] = useState("about");
 
 
     return (
-        <NameMenu.Provider value={menuItem}>
+        <NameMenu.Provider value={[menuItem,setMenuItem]}>
         <div className="App" >
             <header>
                 <HeadBar />
@@ -22,7 +20,9 @@ function App() {
                 <MainContainer/>
             </main>
             <footer>
+                <div className={"footer"}>
 
+                </div>
             </footer>
         </div>
         </NameMenu.Provider>
