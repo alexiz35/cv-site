@@ -1,16 +1,9 @@
 @import 'App';
 
-.targetElement {
-  color: red;
-}
-.notTargetElement {
-  color: blue;
-}
-
 
 .tittleAbout {
   display: flex;
-  background-color: #DCDCDC;
+  background-color: $colorFon;
   width: 40px;
   align-items: center;
   .content {

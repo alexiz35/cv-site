@@ -133,7 +133,7 @@ export function GithubContent() {
                         <li>
                             <h6>CV - project written on React.js</h6>
                             Technologies: HTML5, CSS3, React, SCSS, ReactBootstrap<br/>
-                            URL, <a href={"https://github.com/alexiz35/cv-site"}>link on GitHub</a>
+                            <a href="http://iziumov.byethost7.com/">URL</a>, <a href={"https://github.com/alexiz35/cv-site"}>link on GitHub</a>
                         </li>
 
                     </ul>
