@@ -64,7 +64,7 @@ export default function HeadBar() {
                         <tr>
                             <td><b>EMAIL</b></td>
                             <td>:</td>
-                            <td>aleksiz1977@gmail.com</td>
+                            <td><a href= "mailto:oleksandr.iziumov@gmail.com" >oleksandr.iziumov@gmail.com</a></td>
                         </tr>
                         <tr>
                             <td><b>PHONE</b></td>
