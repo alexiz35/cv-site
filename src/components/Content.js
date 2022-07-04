@@ -19,9 +19,9 @@ export function AboutContent() {
     return (
         <>
             <h5 align={"justify"} style={styleAbout}>I was developing electronic devices, programming of
-                microcontrollers (assembler, C). I am the founder of
-                a unique laser tag company in Ukraine:<a
-                    href="https://www.facebook.com/lasertagukraine"> L.T.U.</a> .<br/><br/>
+                microcontrollers (assembler, C) and created some android application (Java) . I'm the founder of
+                a unique laser tag company in Ukraine:
+                <a href="https://www.facebook.com/lasertagukraine"> L.T.U.</a> .<br/><br/>
                 I decided to change my career in 2022 based on:
                 <ol>
                     <li>
@@ -32,7 +32,7 @@ export function AboutContent() {
                         programming.
                     </li>
                 </ol>
-                At the moment I am self-studying HTML,CSS,Javascript, React, Next.js . I have several certificates of
+                At the moment I'm self-studying HTML,CSS,Javascript, React, Next.js . I have several certificates of
                 passing online courses in these languages. I am rewriting the site of my company on Next.js and made a
                 test project. They are uploaded to github.
                 I want to enter web programming starting from the minimum FrontEnd position and reach the FullStack
@@ -133,7 +133,8 @@ export function GithubContent() {
                         <li>
                             <h6>CV - project written on React.js</h6>
                             Technologies: HTML5, CSS3, React, SCSS, ReactBootstrap<br/>
-                            <a href="http://iziumov.byethost7.com/">URL</a>, <a href={"https://github.com/alexiz35/cv-site"}>link on GitHub</a>
+                            <a href="http://iziumov.byethost7.com/">URL</a>,
+                            <a href={"https://github.com/alexiz35/cv-site"}>link on GitHub</a>
                         </li>
 
                     </ul>
@@ -143,9 +144,8 @@ export function GithubContent() {
                         <li>
                             <h6>site LTU - project written on Next.js</h6>
                             Technologies: HTML5, CSS3, React, Next.js, SCSS, ReactBootstrap, MySql<br/>
-                            <a href={"http://www.ltu.com.ua/"}>URL</a>, <a
-                            href={"https://github.com/alexiz35/site-ltu"}>link
-                            on GitHub</a>
+                            <a href={"http://www.ltu.com.ua/"}>URL</a>,
+                            <a href={"https://github.com/alexiz35/site-ltu"}>link on GitHub</a>
                         </li>
 
                     </ul>
@@ -156,6 +156,17 @@ export function GithubContent() {
                             <h6>TestTask - project written on React.js</h6>
                             Technologies: HTML5, CSS3, React, SCSS, ReactBootstrap, RestApi, PixelPerfect<br/>
                             <a href={"https://github.com/alexiz35/test_task"}>Link on GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <h6>App TIR - project written on Java</h6>
+                            Technologies: JAVA, AndroidStudio<br/>
+                            <a href={"https://www.youtube.com/watch?v=GfdVFe3UbXk"}>YouTube Presentation</a>,
+                            <a href={"https://github.com/alexiz35/TIR"}>link on GitHub</a>
                         </li>
 
                     </ul>
