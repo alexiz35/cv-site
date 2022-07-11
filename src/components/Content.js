@@ -18,10 +18,19 @@ const styleDiv = {
 export function AboutContent() {
     return (
         <>
-            <h5 align={"justify"} style={styleAbout}>I was developing electronic devices, programming of
+            <h5 align={"justify"} style={styleAbout}>
+                I’m a beginner frontend developer,have the ability to learn quickly and have a great desire to learn
+                new technologies. Looking for an interesting job where I can be useful to the company and
+                can get experience for further development.
+                I have basic knowledge HTML5, CSS/SCSS, JavaScript, REACT, RestAPI, GIT
+                and experience in developing web applications. I have studied courses and
+                have diplomas and certificates in these courses. There are several pet projects on github,
+                some of them I'm currently rewriting.
+                <br/>
+                I was developing electronic devices, programming of
                 microcontrollers (assembler, C) and created some android application (Java) . I'm the founder of
                 a unique laser tag company in Ukraine:
-                <a href="https://www.facebook.com/lasertagukraine"> L.T.U.</a> .<br/><br/>
+                <a href="https://www.facebook.com/lasertagukraine"> L.T.U.</a> .<br/>
                 I decided to change my career in 2022 based on:
                 <ol>
                     <li>
@@ -32,9 +41,7 @@ export function AboutContent() {
                         programming.
                     </li>
                 </ol>
-                At the moment I'm self-studying HTML,CSS,Javascript, React, Next.js . I have several certificates of
-                passing online courses in these languages. I am rewriting the site of my company on Next.js and made a
-                test project. They are uploaded to github.
+                Currently, I'm ready for any amount of work of any complexity to improve my skills.
                 I want to enter web programming starting from the minimum FrontEnd position and reach the FullStack
                 level.
             </h5>
@@ -50,16 +57,16 @@ export function SkillsContent() {
                 <div style={styleDiv}>
                     <ul>
                         <li>
-                            <b>Programming languages:</b> <i>JavaScript, HTML5, CSS3, SASS, Git</i>
+                            <b>Programming languages:</b> <i>JavaScript, HTML5, CSS3, SASS</i>
                         </li>
                         <li>
-                            <b>Technologies and frameworks:</b> <i>React, Bootstrap,Next.js</i>
+                            <b>Technologies and frameworks:</b> <i>React,Bootstrap,Next.js,Node.js,Git</i>
                         </li>
                         <li>
                             <b> Web servers:</b> <i>Apache</i>
                         </li>
                         <li>
-                            <b>Databases:</b> <i>MySQL</i>
+                            <b>Databases:</b> <i>MongoDB, MySQL</i>
                         </li>
                     </ul>
                 </div>
@@ -94,7 +101,7 @@ export function ExperienceContent() {
                         <li>
                             <b>Responsibilities: </b>
                             <i>Сompany management, development of new devices, programming of microcontrollers, writing
-                                programs for android.</i>
+                                programs for android (C, JAVA for AndroidApp).</i>
                         </li>
                     </ul>
                 </div>
@@ -107,7 +114,7 @@ export function ExperienceContent() {
                     <li>
                         <b>Responsibilities: </b>
                         <i>Management of a department of 15 people, development of electronic devices and programming of
-                            microcontrollers</i>
+                            microcontrollers </i>
                     </li>
                     {/*<li>
                         Programming languages: JavaScript, HTML5, CSS3, SASS, Git
@@ -222,6 +229,36 @@ export function CoursesContent() {
         <>
             <h4 align={"center"}>Online Courses and Certificate</h4>
             <div style={styleContent}>
+
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <b>ITVDN online</b> <br/>
+                            <i>Course "Javascript"</i><br/>
+                            <b>Certificate on Testprovider:</b><br/>
+                            <ul>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp60227846"}>TP60227846</a> -
+                                    JavaScript Starter
+                                </li>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp57862634"}>TP57862634</a> -
+                                    JavaScript 2021
+                                </li>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/tp96839141"}>TP96839141</a> -
+                                    ECMASCRIPT 6
+                                </li>
+                                <b>Diploma on Testprovider:</b><br/>
+                                <li>
+                                    <a href={"https://testprovider.com/ru/search-certificate/TP53666595D"}>TP53666595D</a> -
+                                    JavaScript Developer
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
                 <div style={styleDiv}>
                     <ul>
                         <li>
@@ -270,30 +307,6 @@ export function CoursesContent() {
                         </ul>
 
                     </ul>
-                </div>
-                <div style={styleDiv}>
-                    <ul>
-                        <li>
-                            <b>ITVDN online</b> <br/>
-                            <i>Course "Javascript"</i><br/>
-                            <b>Certificate on Testprovider:</b><br/>
-                            <ul>
-                                <li>
-                                    <a href={"https://testprovider.com/ru/search-certificate/tp60227846"}>TP60227846</a> -
-                                    JavaScript Starter
-                                </li>
-                                <li>
-                                    <a href={"https://testprovider.com/ru/search-certificate/tp57862634"}>TP57862634</a> -
-                                    JavaScript Essential 2021
-                                </li>
-                                <li>
-                                    <a href={"https://testprovider.com/ru/search-certificate/tp96839141"}>TP96839141</a> -
-                                    ECMASCRIPT 6
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
                 </div>
 
 
