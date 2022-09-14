@@ -205,8 +205,8 @@ export function EducationContent() {
                         </li>
                         <ul>
                             <li>
-                                English - Pre-Intermediate <br/>
-                                (reading technical documentation and сonducting correspondence)
+                                English - Intermediate <br/>
+                                (reading technical documentation and сonducting correspondence, I'm developing my speaking skills.)
                             </li>
                             <li>
                                 Russian - Native
