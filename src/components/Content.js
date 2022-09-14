@@ -19,31 +19,18 @@ export function AboutContent() {
     return (
         <>
             <h5 align={"justify"} style={styleAbout}>
-                I’m a beginner frontend developer,have the ability to learn quickly and have a great desire to learn
-                new technologies. Looking for an interesting job where I can be useful to the company and
-                can get experience for further development.
-                I have basic knowledge HTML5, CSS/SCSS, JavaScript, REACT, RestAPI, GIT
-                and experience in developing web applications. I have studied courses and
-                have diplomas and certificates in these courses. There are several pet projects on github,
-                some of them I'm currently rewriting.
-                <br/>
-                I was developing electronic devices, programming of
-                microcontrollers (assembler, C) and created some android application (Java) . I'm the founder of
-                a unique laser tag company in Ukraine:
-                <a href="https://www.facebook.com/lasertagukraine"> L.T.U.</a> .<br/>
-                I decided to change my career in 2022 based on:
-                <ol>
-                    <li>
-                        The war in Ukraine and the problems of production in such conditions
-                    </li>
-                    <li>
-                        and most importantly - I always wanted to do programming and I see the future in web
-                        programming.
-                    </li>
-                </ol>
-                Currently, I'm ready for any amount of work of any complexity to improve my skills.
-                I want to enter web programming starting from the minimum FrontEnd position and reach the FullStack
-                level.
+
+                I’m a beginner frontend developer, have the ability to learn quickly and have a great desire to learn
+                new technologies. I have experience in the HTML5, CSS/SCSS, JavaScript, REACT, Bootstrap, RestAPI, GIT,
+                and little experience Next.js, Node.js, Express, MongoDB.
+                I finished courses and have diplomas and certificates in these courses. There are my commercial and pet
+                projects on GitHub, some of them I'm currently rewriting.For example, this CV I wrote on React and
+                deploy on hosting.
+                Previously, I was developing electronic devices, programming of microcontrollers (assembler, C) and
+                created several android application (Java).
+                Currently, looking for an interesting job where I can be useful to the company and can get experience
+                for further development.
+
             </h5>
         </>
     )
@@ -57,16 +44,13 @@ export function SkillsContent() {
                 <div style={styleDiv}>
                     <ul>
                         <li>
-                            <b>Programming languages:</b> <i>JavaScript, HTML5, CSS3, SASS</i>
+                            <b>Programming languages :</b> <i>JavaScript, HTML5, CSS3, SASS</i>
                         </li>
                         <li>
-                            <b>Technologies and frameworks:</b> <i>React,Bootstrap,Next.js,Node.js,Git</i>
+                            <b>Technologies and frameworks:</b> <i>React,Bootstrap,Next.js,Node.js,Git,Express</i>
                         </li>
                         <li>
-                            <b> Web servers:</b> <i>Apache</i>
-                        </li>
-                        <li>
-                            <b>Databases:</b> <i>MongoDB, MySQL</i>
+                            <b>Databases:</b> <i>MongoDB</i>
                         </li>
                     </ul>
                 </div>
@@ -138,25 +122,39 @@ export function GithubContent() {
                 <div style={styleDiv}>
                     <ul>
                         <li>
+                            <h6>MERN - FullStack project written on React, Express, NODE, MongoDB</h6>
+                            Technologies: HTML5, CSS3, React, Node, Express, MongoDB, ReactBootstrap<br/>
+                            <a href="http://44.209.18.163">link to site</a><br/>
+                            <a href={"https://github.com/alexiz35/mernProject"}>link on GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
+                            <h6>site Melek - project written on Next.js</h6>
+                            Technologies: HTML5, CSS3, React, Next.js, SCSS, ReactBootstrap, RestAPI<br/>
+                            <a href={"https://melek.vercel.app/"}>link to site</a><br/>
+                            <a href={"https://github.com/alexiz35/melek"}>link on GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div style={styleDiv}>
+                    <ul>
+                        <li>
                             <h6>CV - project written on React.js</h6>
                             Technologies: HTML5, CSS3, React, SCSS, ReactBootstrap<br/>
-                            <a href="http://iziumov.byethost7.com/">URL</a>,
+                            <a href="http://iziumov.byethost7.com/">link to site</a><br/>
                             <a href={"https://github.com/alexiz35/cv-site"}>link on GitHub</a>
                         </li>
 
                     </ul>
                 </div>
-                <div style={styleDiv}>
-                    <ul>
-                        <li>
-                            <h6>site LTU - project written on Next.js</h6>
-                            Technologies: HTML5, CSS3, React, Next.js, SCSS, ReactBootstrap, MySql<br/>
-                            <a href={"http://www.ltu.com.ua/"}>URL</a>,
-                            <a href={"https://github.com/alexiz35/site-ltu"}>link on GitHub</a>
-                        </li>
 
-                    </ul>
-                </div>
                 <div style={styleDiv}>
                     <ul>
                         <li>

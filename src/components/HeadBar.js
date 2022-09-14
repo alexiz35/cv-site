@@ -29,7 +29,7 @@ export default function HeadBar() {
                                 <NavDropdown  title="GitHub" id="collasible-nav-dropdown" >
                                     <NavDropdown.Item  href="https://github.com/alexiz35/cv-site" >CV
                                         project</NavDropdown.Item>
-                                    <NavDropdown.Item href="https://github.com/alexiz35/site-ltu">LTU
+                                    <NavDropdown.Item href="https://github.com/alexiz35/mernProject">MERN
                                         project</NavDropdown.Item>
                                     <NavDropdown.Item href="https://github.com/alexiz35/test_task">TestTask
                                         project</NavDropdown.Item>
