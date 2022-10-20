@@ -21,11 +21,11 @@ export function AboutContent() {
             <h5 align={"justify"} style={styleAbout}>
 
                 I’m a beginner frontend developer, have the ability to learn quickly and have a great desire to learn
-                new technologies. I have experience in the HTML5, CSS/SCSS, JavaScript, REACT, Bootstrap, RestAPI, GIT,
+                new technologies. I have experience in the HTML5, CSS/SCSS, JavaScript, REACT, Redux, Bootstrap, RestAPI, GIT,
                 and little experience Next.js, Node.js, Express, MongoDB.
                 I finished courses and have diplomas and certificates in these courses. There are my commercial and pet
                 projects on GitHub, some of them I'm currently rewriting.For example, this CV I wrote on React and
-                deploy on hosting.
+                deployed it on hosting.
                 Previously, I was developing electronic devices, programming of microcontrollers (assembler, C) and
                 created several android application (Java).
                 Currently, looking for an interesting job where I can be useful to the company and can get experience
@@ -47,7 +47,7 @@ export function SkillsContent() {
                             <b>Programming languages :</b> <i>JavaScript, HTML5, CSS3, SASS</i>
                         </li>
                         <li>
-                            <b>Technologies and frameworks:</b> <i>React,Bootstrap,Next.js,Node.js,Git,Express</i>
+                            <b>Technologies and frameworks:</b> <i>React,Redux,Bootstrap,Next.js,Node.js,Git,Express</i>
                         </li>
                         <li>
                             <b>Databases:</b> <i>MongoDB</i>
@@ -57,7 +57,7 @@ export function SkillsContent() {
                 <div style={styleDiv}>
                     <ul>
                         <li>
-                            <b>Development environments (IDE):</b> <i>WebStorm, PHPStorm</i>
+                            <b>Development environments (IDE):</b> <i>WebStorm, PHPStorm, VS Code</i>
                         </li>
                         <li>
                             <b>Design:</b> <i>Figma, Photoshop</i>
@@ -123,7 +123,7 @@ export function GithubContent() {
                     <ul>
                         <li>
                             <h6>MERN - FullStack project written on React, Express, NODE, MongoDB</h6>
-                            Technologies: HTML5, CSS3, React, Node, Express, MongoDB, ReactBootstrap<br/>
+                            Technologies: HTML5, CSS3, React, Redux, Node, Express, MongoDB, ReactBootstrap<br/>
                             <a href="http://44.209.18.163">link to site</a><br/>
                             <a href={"https://github.com/alexiz35/mernProject"}>link on GitHub</a>
                         </li>
@@ -135,7 +135,7 @@ export function GithubContent() {
                     <ul>
                         <li>
                             <h6>site Melek - project written on Next.js</h6>
-                            Technologies: HTML5, CSS3, React, Next.js, SCSS, ReactBootstrap, RestAPI<br/>
+                            Technologies: HTML5, CSS3, React, Next.js, ReactBootstrap, RestAPI<br/>
                             <a href={"https://melek.vercel.app/"}>link to site</a><br/>
                             <a href={"https://github.com/alexiz35/melek"}>link on GitHub</a>
                         </li>
@@ -165,6 +165,7 @@ export function GithubContent() {
 
                     </ul>
                 </div>
+
                 <div style={styleDiv}>
                     <ul>
                         <li>
